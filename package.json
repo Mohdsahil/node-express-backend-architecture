@@ -1,0 +1,34 @@
+{
+  "name": "express-backend-articture",
+  "version": "1.0.0",
+  "description": "Node Js Express Backend Architect ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohdsahil/node-express-backend-articture.git"
+  },
+  "author": "Mohd Sahil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mohdsahil/node-express-backend-articture/issues"
+  },
+  "homepage": "https://github.com/Mohdsahil/node-express-backend-articture#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-fileupload": "^1.5.0",
+    "joi": "^17.12.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.1",
+    "multer": "^1.4.5-lts.1"
+  }
+}
